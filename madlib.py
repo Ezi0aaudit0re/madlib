@@ -13,7 +13,6 @@ __email__ = "amannagpal4@gmail.com"
 """
 def main(user_input = None, madlib = set(), function=None): 
     try:
-        print(madlib)
         if(function == "Print"):
             # this checks if the function is being called to print the madlib set
             # through this simple step we can avoid passing the copy of madlib set to different functions and save memory
